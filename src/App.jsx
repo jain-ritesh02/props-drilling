@@ -1,16 +1,10 @@
 import React from 'react'
-import Upper from './components/Upper'
+import Input from './components/Input'
 
 const App = () => {
   return (
     <div>
-
-      <Upper>
-        Hello World
-      </Upper>
-      <Upper>
-        Hello Worlddebdhebdekdke
-      </Upper>
+      <Input type={"text"} placeholder={"Enter your name"} name={"name"}/>
     </div>
   )
 }

@@ -3,7 +3,7 @@ import React from 'react'
 const Upper = (props) => {
   return (
     <div>
-      {props.children.toUpperCase()}
+        {props.data.toLowerCase()} 
     </div>
   )
 }
